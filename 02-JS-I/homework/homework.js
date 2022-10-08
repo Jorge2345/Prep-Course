@@ -4,10 +4,10 @@
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = "12";
+const nuevoNum = 12;
 
 // Crea una variable booleana:
-const nuevoBool = "true";
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -212,7 +212,7 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra === 'a'||letra ==='e'||letra ==='i'||letra ==='o'||letra ==='u'){
-    return "Dato correcto";
+    return "Es vocal";
   } else {
     return "Dato incorrecto";
   }
